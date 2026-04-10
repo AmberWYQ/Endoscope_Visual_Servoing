@@ -1,0 +1,20 @@
+# YOLO-E Visual Servoing Requirements
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+
+# YOLO-World
+ultralytics>=8.0.0
+
+# Visualization (optional but recommended)
+pygame>=2.0.0
+
+# Serial communication (for real robot)
+pyserial>=3.5
+
+# Utilities
+Pillow>=8.0.0
